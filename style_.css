@@ -1,0 +1,272 @@
+.body{
+    margin: 0;
+    width: 100%;
+    background-repeat: repeat;
+    background-color: white;
+
+}
+
+.menu{
+font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+align-items: center;
+color: #000000;
+    padding: 0%;
+    border: 0%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0%;
+}
+#login_button{
+    border-radius: 5px;
+    border: none;
+    color:none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    outline: none;
+
+}
+
+#join_button{
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.block{
+    
+    position: inherit;
+    background-color:whitesmoke ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 70vh;
+    width: 98vw;
+}
+
+.context{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 35px;
+line-height: 43px;
+
+color: #000000;
+
+}
+.policy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.MD{
+    font-size: 25px;
+    font-weight: bold;
+}
+.txt{
+    font-family: Montserrat;
+    font-style: normal;
+}
+.txt_2{
+    margin: 10%;
+    
+    margin-top:0px ;
+    margin-bottom:4% ;
+    text-align: center;
+}
+.title_2{ 
+     font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    
+    color: #000000;
+}
+
+.block_btn{
+    height: 7vh;
+    width: 15vw;
+    border-radius: 5px;
+    border-color: violet;
+    color:none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    outline: none;
+    color: violet;
+    font-weight: bolder;
+}
+.block_btn_2{
+    height: 7vh;
+    width: 15vw;
+    border-radius: 5px;
+    border: none;
+    background-color: violet;
+    color: white;
+    font-weight: bolder;
+}
+.picture{
+    width: 50%;
+    height: 100%;
+  background-image: 11.jfif;
+}
+
+footer{
+    padding: 10%;
+    border: 10%;
+    background: whitesmoke;
+}
+.picture img{
+    image-rendering: chisp-edges;
+    width: 100%;
+    height: 100%;
+}
+
+.right-site{
+    word-wrap: break-word;
+    background-color: rgb(201, 231, 29);
+    width: 50%; 
+    height: 100%;
+}
+
+.n1{
+    line-height: 5vw;
+    color: silver;
+}
+.n2{
+    line-height: 5vw;
+    color: orange;
+}
+.text10{
+    font-size: 12px; 
+}
+.circle {
+    word-wrap: break-word;
+  width: 11vw;
+  height: 11vw;
+  border-radius: 50%;
+  font-size: 1vw;
+  text-align: center;
+  background-color: white;
+  background: rgb(253, 253, 253);
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.down{
+    position: right;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+@media only screen and (max-width:1100px)
+{
+    .n2{
+        line-height: 4vw;
+    }
+   
+}
+@media only screen and (max-width:900px)
+{
+    .n2{
+        line-height: 4vw;
+    }
+  
+    .header{
+     
+    font-size: 27px;
+    line-height: 21px;
+
+    }
+   
+    .button{
+       
+    font-size: 13px;
+    }
+    #login_button{
+      
+    
+        font-size: 16px;
+    }
+    
+    #join_button{
+        font-size: 16px;
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+}
+@media only screen and (max-width:720px)
+{
+    .down{
+        width: 0%;
+        height: 0%;
+    }
+    .circle{
+        width: 0px;
+        height: 0px; 
+    }
+    .right-site{
+        width: 0%;
+        height: 0%;
+    }
+    .context
+    {
+        width:100%;
+        height: 100%;
+    }
+  
+    .picture img{
+        width: 0%;
+        height: 0%;
+    }
+    .picture{
+        width: 0%;
+        height: 0%;
+      }
+}
+@media only screen and (max-width:720px)
+{
+  
+    .block_btn{
+        width: 25vw;
+        font-size: 15px;
+        text-align: left;
+    }
+    .block_btn_2{
+        
+        width: 25vw;
+        font-size: 15px;
+    }
+}
